@@ -2,7 +2,8 @@
 
 > Website: [http://arturoherrero.com/]  
 > Email: <arturo.herrero@gmail.com>  
-> Phone: (+34) 645.19.38.46
+> Phone: (+34) 645.19.38.46  
+> Date of birth: 1984
 
 
 ## Summary
@@ -56,8 +57,13 @@ Experience working in an **Agile/SCRUM** environment and **eXtreme Programming**
 Experience working in a **Linux** environment. Skilled in creating and maintaining administration **shell scripts**.  
 Version control systems: **Git, SVN**.  
 Interest in **functional languages** like LISP, Clojure or Scala.  
-Love for open source and side projects.  
-Languages: Spanish native and professional working proﬁciency English.
+Love for **open source** and side projects.
+
+
+## Languages
+
+Spanish native.  
+Professional working proﬁciency English.
 
 
 [http://arturoherrero.com/]: http://arturoherrero.com/

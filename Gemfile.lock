@@ -1,10 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    github-markdown (0.5.3)
+    github-markup (0.7.5)
+    wkhtmltopdf-binary (0.9.9.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-markdown
+  github-markup
+  wkhtmltopdf-binary

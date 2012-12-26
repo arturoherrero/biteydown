@@ -2,6 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     github-markup (0.7.5)
+    redcarpet (2.2.2)
     wkhtmltopdf-binary (0.9.9.1)
 
 PLATFORMS
@@ -9,4 +10,5 @@ PLATFORMS
 
 DEPENDENCIES
   github-markup
+  redcarpet
   wkhtmltopdf-binary

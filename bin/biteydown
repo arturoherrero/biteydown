@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/biteydown'
+
+markdown_file = ARGV[0]
+
+if markdown_file && File.exists?(markdown_file)
+  Biteydown.process(markdown_file)
+else
+  puts "usage: #{$0} FILE"
+end

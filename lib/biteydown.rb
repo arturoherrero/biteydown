@@ -2,20 +2,35 @@ require 'github/markup'
 
 class Biteydown
 
-  def self.process(markdown_file)
+  def self.process(markdown_file, html, pdf)
     @converter = Converter.new
+    @file_path = FilePath.new(markdown_file)
 
-    output_dir = File.dirname(markdown_file) + '/'
-    output_filename = File.basename(markdown_file, File.extname(markdown_file))
-    html_file = "#{output_dir}#{output_filename}.html"
-    pdf_file = "#{output_dir}#{output_filename}.pdf"
+    html_file = @file_path.get_html_file()
+    pdf_file = @file_path.get_pdf_file()
 
     html = @converter.generate_html(markdown_file)
 
     @converter.create_html_file(html, html_file)
     @converter.create_pdf_file(html_file, pdf_file)
   end
+end
 
+
+class FilePath
+
+  def initialize(markdown_file)
+    @output_dir = File.dirname(markdown_file) + '/'
+    @output_filename = File.basename(markdown_file, File.extname(markdown_file))
+  end
+
+  def get_html_file()
+    "#{@output_dir}#{@output_filename}.html"
+  end
+
+  def get_pdf_file()
+    "#{@output_dir}#{@output_filename}.pdf"
+  end
 end
 
 
@@ -36,8 +51,8 @@ class Converter
   end
 
   def create_html_file(html, html_file)
-    File.open(html_file, 'w') do |f|
-      f.write(html)
+    File.open(html_file, 'w') do |file|
+      file.write(html)
     end
   end
 
@@ -48,5 +63,4 @@ class Converter
       --quiet \
       #{pdf_file}`
   end
-
 end

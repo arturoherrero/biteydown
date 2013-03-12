@@ -1,11 +1,40 @@
 #!/usr/bin/env ruby
 
+require 'optparse'
 require_relative '../lib/biteydown'
 
-markdown_file = ARGV[0]
+options = {}
+opts = OptionParser.new do |opts|
+  opts.program_name = File.basename($0)
+  opts.banner = "Usage: #{opts.program_name} [options] file"
+
+  opts.on("--html", "Create HTML file") do
+    options[:html] = true
+  end
+
+  opts.on("--pdf", "Create PDF file") do
+    options[:pdf] = true
+  end
+
+  opts.on('-h', '--help', 'Display help') do
+    puts opts
+    exit
+  end
+end
+
+begin
+  opts.parse! ARGV
+rescue => exception
+  puts exception
+  puts opts
+  exit 1
+end
+
+markdown_file = ARGV.first
 
 if markdown_file && File.exists?(markdown_file)
-  Biteydown.process(markdown_file)
+  Biteydown.process(markdown_file, options[:html], options[:pdf])
 else
-  puts "usage: #{$0} FILE"
+  puts opts
+  exit 1
 end

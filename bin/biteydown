@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
+$LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__)) + '/../lib/')
+
 require 'optparse'
-require_relative '../lib/biteydown'
+require 'biteydown'
 
 options = {}
 opts = OptionParser.new do |opts|

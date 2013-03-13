@@ -4,23 +4,13 @@ require 'converter'
 
 class Biteydown
 
-  def self.process(markdown_file, generate_html, generate_pdf)
-    @file_path = FilePath.new(markdown_file)
+  def self.process(markdown_path, generate_html, generate_pdf)
     @markup = Markup.new
-    @converter = Converter.new
+    @file_path = FilePath.new(markdown_path)
+    @converter = Converter.new(@file_path)
 
-    html_path = @file_path.get_html_path
-    pdf_path = @file_path.get_pdf_path
-
-    html = @markup.generate_html(markdown_file)
-
-    if generate_pdf
-      @converter.create_html_file(html, html_path)
-      @converter.create_pdf_file(html_path, pdf_path)
-      File.delete(html_path)
-    end
-    if generate_html
-      @converter.create_html_file(html, html_path)
-    end
+    html = @markup.generate_html(markdown_path)
+    @converter.create_pdf_file(html) if generate_pdf
+    @converter.create_html_file(html) if generate_html
   end
 end

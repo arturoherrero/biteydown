@@ -31,11 +31,11 @@ class FilePath
     @output_filename = File.basename(markdown_file, File.extname(markdown_file))
   end
 
-  def get_html_path()
+  def get_html_path
     "#{@output_dir}#{@output_filename}.html"
   end
 
-  def get_pdf_path()
+  def get_pdf_path
     "#{@output_dir}#{@output_filename}.pdf"
   end
 end

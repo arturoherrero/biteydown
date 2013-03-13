@@ -25,11 +25,7 @@ describe Biteydown do
   end
 
   after(:each) do
-    if File.exists?(html_path)
-      File.delete(html_path)
-    end
-    if File.exists?(pdf_path)
-      File.delete(pdf_path)
-    end
+    File.delete(html_path) if File.exists?(html_path)
+    File.delete(pdf_path) if File.exists?(pdf_path)
   end
 end

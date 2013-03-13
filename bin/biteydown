@@ -30,10 +30,10 @@ rescue => exception
   exit 1
 end
 
-markdown_file = ARGV.first
+markdown_path = ARGV.first
 
-if markdown_file && File.exists?(markdown_file)
-  Biteydown.process(markdown_file, options[:html], options[:pdf])
+if markdown_path && File.exists?(markdown_path)
+  Biteydown.process(markdown_path, options[:html], options[:pdf])
 else
   puts opts
   exit 1

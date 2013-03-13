@@ -2,27 +2,34 @@ require 'spec_helper'
 
 describe Biteydown do
 
+  markdown_path = 'example/curriculum.md'
+  html_path = 'example/curriculum.html'
+  pdf_path = 'example/curriculum.pdf'
+
   it 'create html file from a markdown file' do
-    markdown_file = 'example/curriculum.md'
-    Biteydown.process(markdown_file, true, false)
-    File.exists?(File.new('example/curriculum.html')).should be_true
+    Biteydown.process(markdown_path, true, false)
+    File.exists?(html_path).should be_true
+    File.exists?(pdf_path).should be_false
   end
 
   it 'create pdf file from a markdown file' do
-    markdown_file = 'example/curriculum.md'
-    Biteydown.process(markdown_file, false, true)
-    File.exists?(File.new('example/curriculum.pdf')).should be_true
+    Biteydown.process(markdown_path, false, true)
+    File.exists?(html_path).should be_false
+    File.exists?(pdf_path).should be_true
   end
 
   it 'create html and pdf file from a markdown file' do
-    markdown_file = 'example/curriculum.md'
-    Biteydown.process(markdown_file, true, true)
-    File.exists?(File.new('example/curriculum.html')).should be_true
-    File.exists?(File.new('example/curriculum.pdf')).should be_true
+    Biteydown.process(markdown_path, true, true)
+    File.exists?(html_path).should be_true
+    File.exists?(pdf_path).should be_true
   end
 
-  after(:all) do
-    File.delete('example/curriculum.html')
-    File.delete('example/curriculum.pdf')
+  after(:each) do
+    if File.exists?(html_path)
+      File.delete(html_path)
+    end
+    if File.exists?(pdf_path)
+      File.delete(pdf_path)
+    end
   end
 end

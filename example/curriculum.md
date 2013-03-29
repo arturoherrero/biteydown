@@ -2,19 +2,20 @@
 
 > Website: *[http://arturoherrero.com/]*  
 > Email: *<arturo.herrero@gmail.com>*  
-> Phone: *(+34) 645.19.38.46*  
+> Phone: *07784 831132*  
 > Date of birth: *1984*
 
 
 ## Summary
 
-I am a passionate **software engineer** interested and experienced in dynamic programming languages, mainly **Groovy** and Ruby. These days I work mostly in web development with **Grails**. I love to create elegant software that is easy to read and provides immediate and lasting value to its users.
+I am a passionate **software engineer** interested and experienced in dynamic programming languages, mainly **Groovy** and Ruby. These days I work mostly in web development with **Grails**.  
+I love to create elegant software that is easy to read and provides immediate and lasting value to its users.
 
 I have successfully participated in several projects as a member of a **Scrum team**, participating in the analysis, design and development. I am interested in **agile management** techniques.
 
 I have a **Linux** background and enjoy doing **system administration** tasks.
 
-Occasionally, I am a **speaker at conferences**. I have spoken at Agile Spain Conference, Greach, Codemotion and regional user groups.
+Frequent **speaker on software development events**: Agile Spain Conference, Greach, Codemotion and local user groups.
 
 
 ## Experience
@@ -42,7 +43,7 @@ Occasionally, I am a **speaker at conferences**. I have spoken at Agile Spain Co
 
 - **Groovy/Grails** experience (over 2 and half years) and have worked on a variety of projects big and small.
 - Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery**.
-- Experience working with relational databases: **MySQL**.
+- Experience working with relational databases: **MySQL** and knowledge about NoSQL solutions: **MongoDB**.
 - Experience working in an **Agile/Scrum** environment and **eXtreme Programming** (XP) practices: pair programming, Test-Driven-Development, continuous integration, refactoring, user stories, etc.
 - Experience working in a **Linux** environment. Skilled in creating and maintaining administration **shell scripts**.
 - Version control systems: **Git, SVN**.

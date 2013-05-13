@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'biteydown'
 
 describe Biteydown do
 

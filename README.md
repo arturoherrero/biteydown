@@ -13,6 +13,7 @@ Convert your curriculum vitae in [Markdown] syntax to HTML or PDF file.
     Usage: biteydown [options] file
             --html                       Create HTML file
             --pdf                        Create PDF file
+        -c, --css FILE                   Path to CSS file
         -h, --help                       Display help
 
     $ bin/biteydown --html --pdf example/curriculum.md

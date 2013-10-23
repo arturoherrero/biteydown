@@ -18,6 +18,10 @@ opts = OptionParser.new do |opts|
     options[:pdf] = true
   end
 
+  opts.on( '-c', '--css FILE', "Path to CSS file" ) do |c|
+    options[:css] = c
+  end
+
   opts.on('-h', '--help', 'Display help') do
     puts opts
     exit
@@ -35,7 +39,7 @@ end
 markdown_path = ARGV.first
 
 if markdown_path && File.exists?(markdown_path)
-  Biteydown.process(markdown_path, options[:html], options[:pdf])
+  Biteydown.process(markdown_path, options[:html], options[:pdf], options[:css])
 else
   puts opts
   exit 1

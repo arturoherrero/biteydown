@@ -2,9 +2,9 @@ require 'github/markup'
 
 class Markup
 
-  def generate_html(markdown_file)
+  def generate_html(markdown_file, css_path)
     html = GitHub::Markup.render(markdown_file)
-    add_stylesheet!(html)
+    add_stylesheet!(html, css_path)
     add_head!(html)
   end
 
@@ -12,7 +12,7 @@ class Markup
     html.insert(0, "\n<head>\n<meta charset='utf-8'>\n</head>\n")
   end
 
-  def add_stylesheet!(html)
-    html.insert(0, "\n<style>#{File.read('style/style.css')}</style>\n")
+  def add_stylesheet!(html, css_path)
+    html.insert(0, "\n<style>#{File.read(css_path)}</style>\n")
   end
 end

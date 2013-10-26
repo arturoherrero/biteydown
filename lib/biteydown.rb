@@ -3,15 +3,56 @@ require 'markup'
 require 'converter'
 
 class Biteydown
+  class << self
+    def process(options)
+      @options = options
 
-  def self.process(markdown_path, generate_html, generate_pdf, css_path=nil)
-    @markup = Markup.new
-    @file_path = FilePath.new(markdown_path)
-    @converter = Converter.new(@file_path)
+      create_pdf_file  if generate_pdf?
+      create_html_file if generate_html?
+    end
 
-    css_path ||= File.expand_path('../../style/style.css', __FILE__)
-    html = @markup.generate_html(markdown_path, css_path)
-    @converter.create_pdf_file(html) if generate_pdf
-    @converter.create_html_file(html) if generate_html
+    private
+
+    attr_reader :options
+
+    def create_pdf_file
+      converter.create_pdf_file(raw_html)
+    end
+
+    def create_html_file
+      converter.create_html_file(raw_html)
+    end
+
+    def generate_html?
+      options.fetch(:html, false)
+    end
+
+    def generate_pdf?
+      options.fetch(:pdf, false)
+    end
+
+    def markdown_path
+      options.fetch(:markdown_path)
+    end
+
+    def css_path
+      options.fetch(:css_path, File.expand_path('../../style/style.css', __FILE__))
+    end
+
+    def raw_html
+      markup.generate_html(markdown_path, css_path)
+    end
+
+    def markup
+      @markup ||= Markup.new
+    end
+
+    def converter
+      @converter ||= Converter.new(file_path)
+    end
+
+    def file_path
+      FilePath.new(markdown_path)
+    end
   end
 end

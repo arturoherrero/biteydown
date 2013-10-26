@@ -13,15 +13,17 @@ Convert your curriculum vitae in [Markdown] syntax to HTML or PDF file.
     Usage: biteydown [options] file
             --html                       Create HTML file
             --pdf                        Create PDF file
-        -c, --css FILE                   Path to CSS file
+            --css file                   Path to CSS file
         -h, --help                       Display help
 
     $ bin/biteydown --html --pdf example/curriculum.md
+    $ bin/biteydown --pdf example/curriculum.md
+    $ bin/biteydown --pdf --css style/style.css example/curriculum.md
 
 
 ### Style
 
-You can customize the look and feel of text and headings in your document using the `style/style.css` file. First is transformed the Markdown document to HTML file and then apply the style. It's a little bit hacky, but works fine.
+You can customize the look and feel of text and headings in your document using the `style/style.css` file or a custom CSS file. First is transformed the Markdown document to HTML file and then apply the style. It's a little bit hacky, but works fine.
 
 Markdown is a lightweight markup language designed as an easy-to-read, easy-to-write plain text format and then convert it to structurally valid HTML; therefore, CSS selectors can be used to customize the curriculum.
 

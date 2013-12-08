@@ -1,4 +1,4 @@
-# Arturo Herrero Poza
+# Arturo Herrero
 
 > Website: *[http://arturoherrero.com/]*  
 > GitHub: *[https://github.com/arturoherrero]*  
@@ -8,49 +8,57 @@
 
 ## Summary
 
-I'm a passionate **software engineer** interested and experienced in dynamic programming languages, mainly **Groovy**. These days I work mostly in web development with **Grails**. I love to create elegant software that is easy to read and provides immediate and lasting value to its users.
+I'm a **software engineer** interested in dynamic programming languages, mainly **Ruby** and **Groovy**. I'm highly experienced in web development and the last months I've worked mostly building different **RESTful web services**. I love to create elegant software that is easy to read and provides immediate and lasting value to its users.
 
-I have successfully participated in several projects as a member of a **Scrum team**, participating in the analysis, design and development. I'm interested in **agile management** techniques.
+I have been involved in several successful projects as a member of a **Scrum team**, participating in the analysis, design and development. I'm interested in **agile management** techniques.
 
-I have a **Linux** background and enjoy doing **system administration** tasks.
+I have a **Linux** background and also enjoy doing **system administration** tasks.
 
-Frequent **speaker on software development events**: Agile Spain Conference, Greach, Codemotion and local user groups.
+I wrote a book about Markdown with Packt Publishing: **[Instant Markdown]**.
+
+I'm a frequent **speaker in software conferences**: Agile Spain Conference, Greach, Codemotion, SoCraTes UK and local user groups.
 
 
 ## Experience
 
-**Software developer** at *[OSOCO]*. `nov 2010 - mar 2013`  
-> I work as a software developer and technical consultant, with a focus on web applications. Working with Groovy and Grails from 1.2.x to 2.x versions and hosting in cloud-based platforms using Amazon AWS. I worked for one of our largest projects, the [BKOOL sports platform]; and worked on a custom CRM that we built for another client.  
-The last 3 months I also play as ScrumMaster, being in charge of managing the team and the project, as well as leading the technical and architectural aspects.
+**Software engineer** at *[Cambridge Healthcare]*. `may 2013 - present`  
+> I work building a health record, analytics and open API at [howareyou.com].  
+My main task is to develop and design RESTful web services with Ruby. I craft different web APIs implemented using HTTP and REST principles, Entity-Boundary-Interactor (EBI) architecture and Redis for the persistence.  
+I'm also working in sysadmin tasks using Docker as a utility to create virtualized Linux containers for shipping self-contained applications hosted in Amazon AWS.
+
+**Software engineer** at *[OSOCO]*. `nov 2010 - mar 2013`  
+> I worked as a software developer and technical consultant, with a focus on web applications using Groovy/Grails and hosted in Amazon AWS.   
+I developed a social network and training plan manager focused on cycling. This project is one of the biggest Groovy/Grails projects ever done in Spain: [BKOOL Connect Sport].  
+I also worked on a customer relationship management application for other client.  
+The last 3 months I also played the role of Scrum Master, being in charge of managing the team and the project, as well as leading the technical and architectural aspects.
 
 **Software engineer** at *Digital High*. `mar 2010 - oct 2010`  
-> System administration. Web development. OpenERP.
+> System administration. Web development.
 
 **System administrator** at *INSIA*. `sep 2008 - sep 2010`  
-> System administration. LAMPP. Software development with .NET. Parallelization with TBB and C++.
+> System administration. Software development with .NET. Parallelization with TBB and C++.
 
 
 ## Education
 
 **Software Engineering Degree** at *Universidad Politécnica de Madrid*. `jul 2010`  
-> Highest mark possible on Final Project Degree, awarded 10/10.
-
-**Computer Systems Engineering** at *Universidad Politécnica de Madrid*. `jun 2009`  
+> Highest mark possible on Final Project Degree, awarded 10/10.  
 > Applied for Excellence in Academic Achievement Scholarship 2009/2010, average mark of 8.29/10.
 
 
 ## Technical Skills
 
-- **Groovy/Grails** experience (over 2 and half years) and have worked on a variety of projects big and small.
+- Deliver valuable and high quality software in **Ruby**.
+- **Groovy/Grails** experience working on a variety of projects big and small.
+- **Testing frameworks**: RSpec, Cucumber, Spock, etc.
+- Implementation and design usable **RESTful Web APIs**.
+- Relational databases: **PostgreSQL** and **MySQL**.
+- NoSQL solutions: **Redis** and **MongoDB**.
+- Experience working in an **Agile/Scrum** environment and **eXtreme Programming** (XP) practices: pair programming, Test-Driven-Development, continuous integration, continuous delivery, refactoring, etc.
+- Experience working and configuring different **Linux** environments. Skilled creating and maintaining administration **shell scripts**.
+- Experience using Docker and **Amazon AWS** (EC2, S3).
 - Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery**.
-- Experience working with relational databases: **MySQL** and knowledge about NoSQL solutions: **MongoDB**.
-- Experience working in an **Agile/Scrum** environment and **eXtreme Programming** (XP) practices: pair programming, Test-Driven-Development, continuous integration, refactoring, user stories, etc.
-- Experience working in a **Linux** environment. Skilled in creating and maintaining administration **shell scripts**.
-- Experience using **Amazon AWS** (EC2, S3).
-- Version control systems: **Git, SVN**.
-- Knowledge about others dynamic languages like **Ruby** or Python.
-- Interest in **functional languages** like LISP, Clojure or Scala.
-- Love for **open source** and side projects.
+- Knowledge about **functional languages** like LISP, Clojure or Scala.
 
 
 ## Languages
@@ -61,18 +69,23 @@ The last 3 months I also play as ScrumMaster, being in charge of managing the te
 
 ## Personal Projects
 
-I'm continually learning and working in personal projects.  
-Check out my GitHub account to see what I have been hacking on lately.
+I love **open source** and I'm continually learning and working in personal projects.  
+Check out my [GitHub account] to see what I have been hacking on lately.
 
+- **[iShows]**. iPhone app to managing TV Shows. I developed an image server that provides all the images to the devices.
 - Grails support for Sublime Text editor.
-- New operator [not] for Groovy programming language.
-- Biteydown. Ruby app that converts your curriculum vitae in markdown syntax to HTML or PDF file.
-- iShows. Sinatra application to serve images with a determinate size.
+- Biteydown. Ruby app that converts your resume in markdown syntax to HTML or PDF file.
+- New operator [not] for the Groovy programming language.
 - Sparky. Groovy script that generates sparklines for a set of data.
-- vcstats. Full featured Bash script to visualize statistics from the command line.
+- GitStats. Full featured Bash script to visualize Git statistics from the command line.
 
 
 [http://arturoherrero.com/]: http://arturoherrero.com/
 [https://github.com/arturoherrero]: https://github.com/arturoherrero
+[GitHub account]: https://github.com/arturoherrero
+[Instant Markdown]: http://www.packtpub.com/learn-to-manage-content-and-use-different-services-with-markdown/book
+[Cambridge Healthcare]: http://cambridgehealthcare.com/
+[howareyou.com]: http://howareyou.com/
 [OSOCO]: http://osoco.es/
-[BKOOL sports platform]: http://www.bkool.com/
+[BKOOL Connect Sport]: http://www.bkool.com/
+[iShows]: http://ishowsapp.com/

@@ -1,16 +1,20 @@
 # biteydown
 
+[![Build Status](https://travis-ci.org/arturoherrero/biteydown.png?branch=master)](https://travis-ci.org/arturoherrero/biteydown)
+[![Code Climate](https://codeclimate.com/github/arturoherrero/biteydown.png)](https://codeclimate.com/github/arturoherrero/biteydown)
+
 Convert your curriculum vitae in [Markdown] syntax to HTML or PDF file.
 
 
 ### Instalation
 
+    git clone git@github.com:arturoherrero/biteydown.git
     bundle install
 
 
 ### Usage
 
-    Usage: biteydown [options] file
+    Usage: biteydown [options] markdown_file.md
             --html                       Create HTML file
             --pdf                        Create PDF file
             --css file                   Path to CSS file

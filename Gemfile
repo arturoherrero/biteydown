@@ -4,6 +4,7 @@ gem 'github-markup'
 gem 'redcarpet'
 gem 'wkhtmltopdf-binary'
 
-group :test do
-  gem "rspec"
+group :development, :test do
+  gem 'rake'
+  gem 'rspec'
 end

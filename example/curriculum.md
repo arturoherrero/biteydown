@@ -21,9 +21,9 @@ I'm a frequent **speaker in software conferences**: Agile Spain Conference, Grea
 
 ## Experience
 
-**Software engineer** at *[Cambridge Healthcare]*. `may 2013 - present`  
+**Software engineer** at *[Cambridge Healthcare]*. `may 2013 - dec 2013`  
 > I work building a health record, analytics and open API at [howareyou.com].  
-My main task is to develop and design RESTful web services with Ruby. I craft different web APIs implemented using HTTP and REST principles, Entity-Boundary-Interactor (EBI) architecture and Redis for the persistence.  
+My main task is to develop and design RESTful web services with Ruby. I craft different web APIs implemented using HTTP and REST principles, Entity-Boundary-Interactor (EBI) architecture, Elasticsearch and Redis for the persistence.  
 I'm also working in sysadmin tasks using Docker as a utility to create virtualized Linux containers for shipping self-contained applications hosted in Amazon AWS.
 
 **Software engineer** at *[OSOCO]*. `nov 2010 - mar 2013`  

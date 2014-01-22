@@ -24,7 +24,7 @@ describe Biteydown do
       :html          => true,
       :pdf           => false,
     )
- 
+
     expect(File.exists?(pdf_path)).to be_false
     expect(File.exists?(html_path)).to be_true
     check_css(html_path, vendor_css_path)

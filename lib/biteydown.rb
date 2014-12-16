@@ -1,6 +1,6 @@
-require 'filepath'
-require 'markup'
-require 'converter'
+require_relative 'converter'
+require_relative 'filepath'
+require_relative 'markup'
 
 class Biteydown
   class << self

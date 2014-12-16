@@ -1,1 +1,3 @@
--I lib --color
+--color
+--format progress
+--require spec_helper

@@ -32,7 +32,7 @@ You can customize the look and feel of text and headings in your document using 
 
 Markdown is a lightweight markup language designed as an easy-to-read, easy-to-write plain text format and then convert it to structurally valid HTML; therefore, CSS selectors can be used to customize the curriculum.
 
-![image](https://github.com/arturoherrero/biteydown/raw/master/cv-css-selectors.png)
+![image](cv-css-selectors.png)
 
 CSS works by associating rules with HTML elements. In this case, there are a little group of selectors that can be used: `h1-h6`, `blockquote`, `a`, `li`, `code`, `strong`, `em`, `img`. You cannot use id or class selectors to create rules that apply to elements.
 

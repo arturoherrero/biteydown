@@ -7,14 +7,14 @@
 
 ## Summary
 
-I'm a **software engineer** with more than **6 years of experience**. I'm interested
-in dynamic programming languages, mainly **Ruby** and **Groovy**. I'm highly
+I am a **software engineer** with more than **6 years of experience**. I am interested
+in dynamic programming languages, mainly **Ruby** and **Groovy**. I am highly
 experienced in web development and the last year I have worked building a
 Bitcoin exchange from the webapp to the datastore. I love to create elegant
 software that is easy to read and provides immediate and lasting value to its users.
 
 I have been involved in several successful projects as a member of a **Scrum
-team**, participating in the analysis, design and development. I'm interested
+team**, participating in the analysis, design and development. I am interested
 in **agile management** techniques.
 
 I have a **Linux** background and also enjoy doing **system administration**
@@ -22,19 +22,22 @@ tasks.
 
 I wrote a book about Markdown with Packt Publishing: **[Instant Markdown][3]**.
 
-I'm a frequent **speaker in software conferences**: Agile Spain Conference,
+Occasionally, I **speak at software conferences**: Agile Spain Conference,
 Greach, Codemotion, SoCraTes UK and local user groups.
 
 
 ## Experience
 
-**Software engineer** at *[Coinfloor][4]*. `jan 2014 - present`  
-> I work building the first UK Bitcoin exchange. Speed, scalability, security and
+**Software Developer** at *[Plex][10]*. `jan 2015 - feb 2015`  
+> I have worked improving the website with the Ruby on Rails team.
+
+**Software Engineer** at *[Coinfloor][4]*. `jan 2014 - jan 2015`  
+> I worked building the first UK Bitcoin exchange. Speed, scalability, security and
 reliability are key features in the development. The system is based in a Ruby
 microservice architecture communicated with RabbitMQ. I also defined the continuous
 integration and deployment environment.
 
-**Software engineer** at *[Cambridge Healthcare][5]*. `may 2013 - dec 2013`  
+**Software Engineer** at *[Cambridge Healthcare][5]*. `may 2013 - dec 2013`  
 > I worked building a health record, analytics and open API at [howareyou.com][6].  
 My main task is to develop and design RESTful web services with Ruby. I craft
 different web APIs implemented using HTTP and REST principles,
@@ -43,16 +46,13 @@ persistence. I'm also working in sysadmin tasks using Docker as a utility to
 create virtualized Linux containers for shipping self-contained applications
 hosted in Amazon AWS.
 
-**Software engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`  
+**Software Engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`  
 > I worked as a software developer and technical consultant, with a focus on
 web applications using Groovy/Grails and hosted in Amazon AWS.  
 I developed a social network and training plan manager focused on cycling:
-[BKOOL][8]. I also worked on a customer relationship management application. The
-last 3 months I also played the role of Scrum Master, being in charge of managing
-the team and the project, as well as leading the technical and architectural aspects.
+[BKOOL][8].
 
-**System administrator** at *INSIA*. `sep 2008 - sep 2010`  
-> System administration. Software development with .NET. Parallelization with TBB and C++.
+**System Administrator** at *INSIA*. `sep 2008 - sep 2010`  
 
 
 ## Education
@@ -70,7 +70,7 @@ the team and the project, as well as leading the technical and architectural asp
 - Implementation and design usable **RESTful Web APIs**.
 - Relational databases: **PostgreSQL** and **MySQL**.
 - NoSQL solutions: **Redis** and **MongoDB**.
-- Queue and message systems: **Resque** and **RabbitMQ**.
+- Queue and message systems: **Resque**, **Sidekiq** and **RabbitMQ**.
 - Experience working in an **Agile/Scrum** environment and **eXtreme
   Programming** (XP) practices: pair programming, Test-Driven-Development,
   continuous integration, continuous delivery, etc.
@@ -89,14 +89,15 @@ the team and the project, as well as leading the technical and architectural asp
 
 ## Personal Projects
 
-I love **open source** and I'm continually learning and working in personal projects.  
+I love **open source** and I am continually learning and working in personal projects.  
 Check out my [GitHub account][2] to see what I have been hacking on lately.
 
 - **[iShows][9]** is an iPhone app to managing TV shows. I developed an image
   server that provides all the images to the devices.
 - Ruby projects. **Biteydown** converts your resume in markdown syntax to HTML
-  or PDF file (this resume it was created using it) and **Twitterise** creates a new and diverse Twitter timeline.
-- Groovy projects. **New operator [#not] for the Groovy programming language** and
+  or PDF file (this resume it was created using it), **YARR** a Ruby REPL and
+  **Twitterise** creates a new and diverse Twitter timeline.
+- Groovy projects. **New operator #not for the Groovy programming language** and
   **Grails support for Sublime Text editor**.
 - Shell projects. **sparky** is Groovy script that generates sparklines for a
   set of data and **bart** prints bar graphs in your shell.
@@ -111,3 +112,4 @@ Check out my [GitHub account][2] to see what I have been hacking on lately.
 [7]: http://osoco.es/
 [8]: http://bkool.com/
 [9]: http://ishowsapp.com/
+[10]: https://plex.tv/

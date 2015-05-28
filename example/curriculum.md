@@ -10,7 +10,7 @@
 
 I am a **software engineer** with more than **6 years of experience**. I am interested
 in dynamic programming languages, mainly **Ruby** and **Groovy**. I am highly
-experienced in web development and the last year I have worked building a
+experienced in web development and last year I worked on building a
 Bitcoin exchange from the webapp to the datastore. I love to create elegant
 software that is easy to read and provides immediate and lasting value to its users.
 
@@ -29,23 +29,23 @@ Greach, Codemotion, SoCraTes UK and local user groups.
 
 ## Experience
 
-**Software Developer** at *[Plex][10]*. `jan 2015 - feb 2015`  
-> I have worked improving the website with the Ruby on Rails team.
+**Software Engineer** at *[AMEE][11]*. `mar 2015 - may 2015`  
+> I have worked in a data driven environment as full stack web developer.
 
-**Software Engineer** at *[Coinfloor][4]*. `jan 2014 - jan 2015`  
+**Software Developer** at *[Plex][10]*. `jan 2015 - feb 2015`  
+> I worked on improving the website with the Ruby on Rails team.
+
+**Lead Developer** at *[Coinfloor][4]*. `jan 2014 - jan 2015`  
 > I worked building the first UK Bitcoin exchange. Speed, scalability, security and
 reliability are key features in the development. The system is based in a Ruby
-microservice architecture communicated with RabbitMQ. I also defined the continuous
-integration and deployment environment.
+microservices architecture communicated with RabbitMQ.
 
 **Software Engineer** at *[Cambridge Healthcare][5]*. `may 2013 - dec 2013`  
 > I worked building a health record, analytics and open API at [howareyou.com][6].  
 My main task is to develop and design RESTful web services with Ruby. I craft
 different web APIs implemented using HTTP and REST principles,
 Entity-Boundary-Interactor (EBI) architecture, Elasticsearch and Redis for the
-persistence. I'm also working in sysadmin tasks using Docker as a utility to
-create virtualized Linux containers for shipping self-contained applications
-hosted in Amazon AWS.
+persistence.
 
 **Software Engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`  
 > I worked as a software developer and technical consultant, with a focus on
@@ -77,7 +77,7 @@ I developed a social network and training plan manager focused on cycling:
   continuous integration, continuous delivery, etc.
 - Experience working and configuring different **Linux** environments. Skilled
   creating and maintaining administration **shell scripts**.
-- Experience using Docker and **Amazon AWS** (EC2, S3, RDS).
+- Experience using Docker, **Amazon AWS** (EC2, S3, RDS) and Heroku.
 - Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery**.
 - Knowledge about **functional languages** like LISP, Clojure or Scala.
 
@@ -95,9 +95,10 @@ Check out my [GitHub account][2] to see what I have been hacking on lately.
 
 - **[iShows][9]** is an iPhone app to managing TV shows. I developed an image
   server that provides all the images to the devices.
-- Ruby projects. **Biteydown** converts your resume in markdown syntax to HTML
-  or PDF file (this resume it was created using it), **YARR** a Ruby REPL and
-  **Twitterise** creates a new and diverse Twitter timeline.
+- Ruby projects. **OpenFastStruct** is like an OpenStruct but faster, **Biteydown**
+  converts your resume in markdown syntax to HTML or PDF file (this resume it was
+  created using it), **YARR** a Ruby REPL and **Twitterise** creates a new and
+  diverse Twitter timeline.
 - Groovy projects. **New operator #not for the Groovy programming language** and
   **Grails support for Sublime Text editor**.
 - Shell projects. **sparky** is Groovy script that generates sparklines for a
@@ -114,3 +115,4 @@ Check out my [GitHub account][2] to see what I have been hacking on lately.
 [8]: http://bkool.com/
 [9]: http://ishowsapp.com/
 [10]: https://plex.tv/
+[11]: https://www.amee.com/

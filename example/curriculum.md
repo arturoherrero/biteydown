@@ -8,26 +8,32 @@
 
 ## Summary
 
-I am a **software engineer** with more than **6 years of experience**. I am interested
-in dynamic programming languages, mainly **Ruby** and **Groovy**. I am highly
-experienced in web development and last year I worked on building a
-Bitcoin exchange from the webapp to the datastore. I love to create elegant
-software that is easy to read and provides immediate and lasting value to its users.
+I am a **software engineer** with more than **6 years of experience**. I have
+experience working with different dynamic programming languages, especially
+**Ruby** and **Groovy**, and I am looking to deepen my knowledge in functional
+languages. I am highly experienced in web development and complex
+architectures. I love creating elegant software that is easy to read and
+provides immediate and lasting value to its users.
 
 I have been involved in several successful projects as a member of a **Scrum
 team**, participating in the analysis, design and development. I am interested
 in **agile management** techniques.
 
-I have a **Linux** background and also enjoy doing **system administration**
+I have a **GNU/Linux** background and also enjoy doing **system administration**
 tasks.
 
-I wrote a book about Markdown with Packt Publishing: **[Instant Markdown][3]**.
+I wrote a book about Markdown with Packt Publishing: __*[Instant Markdown][3]*__.
 
 Occasionally, I **speak at software conferences**: Agile Spain Conference,
 Greach, Codemotion, SoCraTes UK and local user groups.
 
 
 ## Experience
+
+**Software Engineer** at *[Mastered][12]*. `jun 2015 - present`  
+> I joined the team as their second developer; we are now a cross-functional
+team of nine people. We are defining and building the product with Ruby on Rails
+working as a RESTful API consumed by AngularJS and an iOS app.
 
 **Software Engineer** at *[AMEE][11]*. `mar 2015 - may 2015`  
 > I have worked in a data driven environment as full stack web developer.
@@ -41,15 +47,15 @@ reliability are key features in the development. The system is based in a Ruby
 microservices architecture communicated with RabbitMQ.
 
 **Software Engineer** at *[Cambridge Healthcare][5]*. `may 2013 - dec 2013`  
-> I worked building a health record, analytics and open API at [howareyou.com][6].  
-My main task is to develop and design RESTful web services with Ruby. I craft
+> I worked building a health record, analytics and open API.  
+My main task was to develop and design RESTful web services with Ruby. I crafted
 different web APIs implemented using HTTP and REST principles,
-Entity-Boundary-Interactor (EBI) architecture, Elasticsearch and Redis for the
+Entity-Boundary-Interactor architecture, Elasticsearch and Redis for the
 persistence.
 
 **Software Engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`  
 > I worked as a software developer and technical consultant, with a focus on
-web applications using Groovy/Grails and hosted in Amazon AWS.  
+web applications using Groovy and Grails and hosted in Amazon AWS.  
 I developed a social network and training plan manager focused on cycling:
 [BKOOL][8].
 
@@ -66,26 +72,20 @@ I developed a social network and training plan manager focused on cycling:
 ## Technical Skills
 
 - Deliver valuable and high quality software in **Ruby** and **Ruby on Rails**.
-- **Groovy and Grails** experience working on a variety of projects big and small.
+- **Groovy** and **Grails** experience working on a variety of projects big and small.
 - **Testing frameworks**: RSpec, Cucumber, Spock, Capybara, etc.
 - Implementation and design usable **RESTful Web APIs**.
 - Relational databases: **PostgreSQL** and **MySQL**.
 - NoSQL solutions: **Redis** and **MongoDB**.
 - Queue and message systems: **Resque**, **Sidekiq** and **RabbitMQ**.
 - Experience working in an **Agile/Scrum** environment and **eXtreme
-  Programming** (XP) practices: pair programming, Test-Driven-Development,
+  Programming** practices: pair programming, Test-Driven-Development,
   continuous integration, continuous delivery, etc.
-- Experience working and configuring different **Linux** environments. Skilled
+- Experience working and configuring different **GNU/Linux** environments. Skilled
   creating and maintaining administration **shell scripts**.
 - Experience using Docker, **Amazon AWS** (EC2, S3, RDS) and Heroku.
-- Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery**.
+- Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery, AngularJS**.
 - Knowledge about **functional languages** like LISP, Clojure or Scala.
-
-
-## Languages
-
-- Spanish native.
-- Professional working proficiency English.
 
 
 ## Personal Projects
@@ -110,9 +110,9 @@ Check out my [GitHub account][2] to see what I have been hacking on lately.
 [3]: http://packtpub.com/web-development/instant-markdown-instant
 [4]: http://coinfloor.co.uk
 [5]: http://cambridgehealthcare.com/
-[6]: http://howareyou.com/
 [7]: http://osoco.es/
 [8]: http://bkool.com/
 [9]: http://ishowsapp.com/
 [10]: https://plex.tv/
 [11]: https://www.amee.com/
+[12]: https://www.mastered.com

@@ -6,7 +6,7 @@
 Convert your curriculum vitae in [Markdown] syntax to HTML or PDF file.
 
 
-### Instalation
+### Installation
 
     $ git clone git@github.com:arturoherrero/biteydown.git
     $ bundle install

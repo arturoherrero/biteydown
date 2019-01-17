@@ -13,6 +13,7 @@ experience working with different dynamic programming languages, especially
 languages. I am highly experienced in web development and complex
 architectures. I love creating elegant software that is easy to read and
 provides immediate and lasting value to its users.
+{: .lead }
 
 I have been involved in several successful projects as a member of a **Scrum
 team**, participating in the analysis, design and development. I am interested

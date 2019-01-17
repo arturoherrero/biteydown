@@ -13,10 +13,11 @@ class Converter
   def create_pdf_file(html)
     create_html_file(html)
 
-    `wkhtmltopdf #{html_path} \
+    `wkhtmltopdf \
       --encoding UTF-8 \
       --page-size Letter \
       --quiet \
+      #{html_path} \
       #{pdf_path}`
 
     File.delete(html_path)

@@ -34,7 +34,8 @@ Markdown is a lightweight markup language designed as an easy-to-read, easy-to-w
 
 ![image](cv-css-selectors.png)
 
-CSS works by associating rules with HTML elements. In this case, there are a little group of selectors that can be used: `h1-h6`, `blockquote`, `a`, `li`, `code`, `strong`, `em`, `img`. You cannot use id or class selectors to create rules that apply to elements.
+CSS works by associating rules with HTML elements. In this case, there are a little group of selectors that can be used: `h1-h6`, `blockquote`, `a`, `li`, `code`, `strong`, `em`, `img`. You can use id or class selectors to create rules that apply to elements by using kramdown [block attributes](https://kramdown.gettalong.org/quickref.html#block-attributes) syntax.
 
 
 [Markdown]: http://daringfireball.net/projects/markdown/
+[Kramdown]: https://kramdown.gettalong.org/

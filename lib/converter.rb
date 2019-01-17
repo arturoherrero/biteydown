@@ -17,6 +17,7 @@ class Converter
       --encoding UTF-8 \
       --page-size Letter \
       --quiet \
+      --lowquality \
       #{html_path} \
       #{pdf_path}`
 

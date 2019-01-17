@@ -13,7 +13,6 @@ experience working with different dynamic programming languages, especially
 languages. I am highly experienced in web development and complex
 architectures. I love creating elegant software that is easy to read and
 provides immediate and lasting value to its users.
-{: .lead }
 
 I have been involved in several successful projects as a member of a **Scrum
 team**, participating in the analysis, design and development. I am interested
@@ -57,6 +56,7 @@ My main task was to develop and design RESTful web services with Ruby. I crafted
 different web APIs implemented using HTTP and REST principles,
 Entity-Boundary-Interactor architecture, Elasticsearch and Redis for the
 persistence.
+{: .separator }
 
 **Software Engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`
 
@@ -65,7 +65,7 @@ web applications using Groovy and Grails and hosted in Amazon AWS.
 I developed a social network and training plan manager focused on cycling:
 [BKOOL][8].
 
-**System Administrator** at *INSIA*. `sep 2008 - sep 2010`  
+**System Administrator** at *INSIA*. `sep 2008 - sep 2010`
 
 
 ## Education

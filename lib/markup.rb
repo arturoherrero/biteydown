@@ -2,7 +2,7 @@ require 'github/markup'
 
 class Markup
   def generate_html(markdown_path, css_path)
-    html = GitHub::Markup.render(markdown_path)
+    html = GitHub::Markup.render(markdown_path, File.read(markdown_path))
     add_stylesheet!(html, css_path)
     add_head!(html)
   end

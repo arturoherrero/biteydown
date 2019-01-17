@@ -3,6 +3,7 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 96%;
 }
 
 a {
@@ -38,7 +39,6 @@ li {
   list-style-type: square;
 }
 
-.lead {
-  font-size: 110%;
+.separator {
   line-height: 1.5;
 }

@@ -37,3 +37,8 @@ li {
   margin-bottom: 2px;
   list-style-type: square;
 }
+
+.lead {
+  font-size: 110%;
+  line-height: 1.5;
+}

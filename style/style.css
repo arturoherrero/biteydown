@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
 
 body {
-  font-family: Verdana, Geneva, sans-serif;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 96%;
+  font-family: "PT Serif", serif;
+  margin-left: 36px;
+  margin-right: 36px;
+  font-size: 95%;
+  line-height: 1.332;
 }
 
 a {
@@ -11,34 +13,42 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
-  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-}
-
-h2 {
-  color: #CB0063;
-  border-style: solid;
-  border-width: 0px 0px 1px 0px;
-}
-
-code {
-  font-size: 15px;
-  margin-left: 12px;
-  margin-top: 1px;
-  position: absolute;
-}
-
-blockquote {
-  margin-left: 15px;
+h1 {
   margin-top: -10px;
 }
 
+h2 {
+  margin-top: 25px;
+  margin-bottom: -10px;
+  color: #CB0063;
+}
+
+h4 {
+  margin-bottom: -10px;
+}
+
+p {
+  margin-bottom: -8px;
+}
+
+ul {
+  margin-bottom: -8px;
+}
+
 li {
-  margin-left: -20px;
+  margin-left: -10px;
   margin-bottom: 2px;
-  list-style-type: square;
+  list-style: none;
+}
+
+li:before {
+  content:"·";
+  font-size: 30px;
+  margin: 0 0 0 -14px;
+  line-height: 16px;
+  float: left;
 }
 
 .separator {
-  line-height: 1.5;
+  padding-top: 10px;
 }

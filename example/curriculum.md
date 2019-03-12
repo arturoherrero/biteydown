@@ -1,126 +1,141 @@
 # Arturo Herrero
 
-> Website: *[http://arturoherrero.com/][1]*  
-> GitHub: *[https://github.com/arturoherrero][2]*  
-> Email: *<arturo.herrero@gmail.com>*  
-> Phone: *+44 (0)7784 831132*
+Website: *[https://arturoherrero.com][1]*  
+GitHub: *[https://github.com/arturoherrero][2]*  
+Email: *<arturo.herrero@gmail.com>*  
 
 
 ## Summary
 
-I am a **software engineer** with more than **6 years of experience**. I have
-experience working with different dynamic programming languages, especially
-**Ruby** and **Groovy**, and I am looking to deepen my knowledge in functional
-languages. I am highly experienced in web development and complex
-architectures. I love creating elegant software that is easy to read and
-provides immediate and lasting value to its users.
+I'm a **software engineer** with more than **10 years of experience**, having
+worked both as an in-house developer and as a consultant. I've had the
+opportunity to **build and lead tech teams**, and genuinely enjoy facilitating
+communication and coordinating efforts.
 
-I have been involved in several successful projects as a member of a **Scrum
-team**, participating in the analysis, design and development. I am interested
-in **agile management** techniques.
+I see myself as a software craftsman, and therefore always make sure we ship
+**high-quality code** as a team. I strive for excellence and share my passion,
+ideas and practices with those around me. I'm also interested in other
+disciplines such as design and product management, which enables me to bring a
+holistic approach to product development and business.
 
-I have a **GNU/Linux** background and also enjoy doing **system administration**
-tasks.
-
-I wrote a book about Markdown with Packt Publishing: __*[Instant Markdown][3]*__.
-
-Occasionally, I **speak at software conferences**: Agile Spain Conference,
-Greach, Codemotion, SoCraTes UK and local user groups.
+I wrote a book, *[Instant Markdown][3]*, published by Packt
+Publishing, and occasionally speak at conferences and _meetups_.
 
 
 ## Experience
 
-**Software Engineer** at *[Mastered][12]*. `jun 2015 - present`
+#### **Lead Software Engineer** at *[MyDrive][13]*. Sep 2016 - Present
 
-> I joined the team as their second developer; we are now a cross-functional
-team of nine people. We are defining and building the product with Ruby on Rails
-working as a RESTful API consumed by AngularJS and an iOS app.
+MyDrive is a Generali Group company that focuses on analysing driver behaviour
+for insurance companies. I'm currently both leading and managing a tech team.
+During my time at MyDrive,
+I've worked on 4 main projects:
 
-**Software Engineer** at *[AMEE][11]*. `mar 2015 - may 2015`
+- Defined the architecture and currently building our new profiler.
+- Built a logging system using AWS infrastructure in order to scale it to 1M drivers.
+- Developed several APIs to enable client integration.
+- Modified the architecture of our data-model to support multi-driving.
 
-> I have worked in a data driven environment as full stack web developer.
+#### **Senior Software Engineer** at *[Mastered][12]*. Jun 2015 - Sep 2016
 
-**Software Developer** at *[Plex][10]*. `jan 2015 - feb 2015`
+Mastered is an online learning platform for professionals in the fashion
+industry. I joined the team as the second developer and built it to a
+cross-functional team of 9. I helped define and build the product using Ruby
+on Rails, which acted as an API being consumed by AngularJS and an iOS app.
 
-> I worked on improving the website with the Ruby on Rails team.
+#### **Senior Software Engineer** at *[Plex][10]* and *[AMEE][11]*. Jan 2015 - May 2015
 
-**Lead Developer** at *[Coinfloor][4]*. `jan 2014 - jan 2015`
+I helped improve their respective websites working alongside their Ruby on Rails teams.
 
-> I worked building the first UK Bitcoin exchange. Speed, scalability, security and
-reliability are key features in the development. The system is based in a Ruby
+#### **Lead Software Engineer** at *[Coinfloor][4]*. Jan 2014 - Jan 2015
+
+I joined Coinfloor when they were just starting out, and with them built the
+first Bitcoin exchange in the UK. Speed, scalability, security and reliability
+were key features in the development, and the system was based on a Ruby
 microservices architecture communicated with RabbitMQ.
 
-**Software Engineer** at *[Cambridge Healthcare][5]*. `may 2013 - dec 2013`
+#### **Software Engineer** at *Cambridge Healthcare*. May 2013 - Dec 2013
 
-> I worked building a health record, analytics and open API.  
-My main task was to develop and design RESTful web services with Ruby. I crafted
-different web APIs implemented using HTTP and REST principles,
-Entity-Boundary-Interactor architecture, Elasticsearch and Redis for the
-persistence.
-{: .separator }
+I worked building a health record, analytics and open API. My main project was
+to develop and design RESTful web services with Ruby. I crafted different web
+APIs implemented using HTTP and REST principles, Entity-Boundary-Interactor
+architecture, Elasticsearch and Redis for persistence.
 
-**Software Engineer** at *[OSOCO][7]*. `nov 2010 - mar 2013`
+#### **Software Engineer** at *[OSOCO][7]*. Nov 2010 - Mar 2013
+{:.separator }
 
-> I worked as a software developer and technical consultant, with a focus on
-web applications using Groovy and Grails and hosted in Amazon AWS.  
-I developed a social network and training plan manager focused on cycling:
-[BKOOL][8].
+OSOCO is a small software consultancy where I worked as a software developer
+and technical consultant. I focused on building web applications, using Groovy
+and Grails and hosting in AWS.  
+I helped develop a social network and training plan manager for cyclists: *[BKOOL][8]*.
 
-**System Administrator** at *INSIA*. `sep 2008 - sep 2010`
+#### **System Administrator** at *[INSIA][6]*. Sep 2008 - Sep 2010
 
 
 ## Education
 
-**Software Engineering Degree** at *Universidad Politécnica de Madrid*. `jul 2010`
+#### **Software Engineering Degree** at *Universidad Politécnica de Madrid*. 2010
 
-> Highest mark possible on Final Project Degree, awarded 10/10.  
-> Applied for Excellence in Academic Achievement Scholarship 2009/2010, average mark of 8.29/10.
+#### Other Education
+
+I believe in the importance of self-learning, so I'm constantly updating my
+knowledge and skills through blogs, online courses, online forums, conferences,
+events and books. I'm also an avid and curious reader, and read on a wide range
+of topics, from philosophy and literature to science, politics, history and
+economy.
 
 
 ## Technical Skills
 
-- Deliver valuable and high quality software in **Ruby** and **Ruby on Rails**.
+- Delivering valuable and high-quality software in **Ruby** and **Ruby on Rails**.
 - **Groovy** and **Grails** experience working on a variety of projects big and small.
 - **Testing frameworks**: RSpec, Cucumber, Spock, Capybara, etc.
-- Implementation and design usable **RESTful Web APIs**.
+- Implementation and design of usable **RESTful APIs**.
 - Relational databases: **PostgreSQL** and **MySQL**.
 - NoSQL solutions: **Redis** and **MongoDB**.
 - Queue and message systems: **Resque**, **Sidekiq** and **RabbitMQ**.
-- Experience working in an **Agile/Scrum** environment and **eXtreme
-  Programming** practices: pair programming, Test-Driven-Development,
-  continuous integration, continuous delivery, etc.
-- Experience working and configuring different **GNU/Linux** environments. Skilled
-  creating and maintaining administration **shell scripts**.
-- Experience using Docker, **Amazon AWS** (EC2, S3, RDS) and Heroku.
-- Knowledge and understanding of web development: **HTML, CSS, JavaScript, AJAX, JQuery, AngularJS**.
-- Knowledge about **functional languages** like LISP, Clojure or Scala.
+- Data streams: **AWS Kinesis**.
+- Experience working in **Agile** environments and **eXtreme
+  Programming** practices: pair programming, Test-driven Development,
+  Continuous Integration, Continuous Delivery, etc.
+- Experience configuring different **GNU/Linux** environments and **shell scripts**.
+- Experience creating infrastructures using **Docker** and **Terraform**.
+- Experience hosting applications in **Amazon Web Services** and Heroku.
+- Knowledge of **functional languages** like LISP, Clojure, Scala or Elixir.
+- Knowledge of web development: **HTML, CSS, JavaScript, AJAX, JQuery, AngularJS**.
 
 
 ## Personal Projects
 
-I love **open source** and I am continually learning and working in personal projects.  
-Check out my [GitHub account][2] to see what I have been hacking on lately.
+I love **open source** and I'm continually learning and working on personal projects.
+To stay updated with my work check out my [GitHub][2] account.
 
-- **[iShows][9]** is an iPhone app to managing TV shows. I developed an image
-  server that provides all the images to the devices.
-- Ruby projects. **OpenFastStruct** is like an OpenStruct but faster, **Biteydown**
-  converts your resume in markdown syntax to HTML or PDF file (this resume it was
-  created using it), **YARR** a Ruby REPL and **Twitterise** creates a new and
-  diverse Twitter timeline.
-- Groovy projects. **New operator #not for the Groovy programming language** and
-  **Grails support for Sublime Text editor**.
-- Shell projects. **sparky** is Groovy script that generates sparklines for a
-  set of data and **bart** prints bar graphs in your shell.
+- **[iShows][9]** is an iPhone app designed to track TV shows.  
+  I developed an image server that provides all the images to the devices.
+- Extending the Ruby programming language with extensions or gems:  
+  **[Powercore][14]** and **[OpenFastStruct][15]**.
+- **[YARR][16]**, a Ruby REPL.
+- **[gvar][17]**, a pure Bash key-value store.
+- Printing bar graphs in the shell: **[sparky][18]** and **[bart][19]**.
+- Creating this CV in markdown with **[biteydown][20]**.
 
 
-[1]: http://arturoherrero.com/
-[2]: http://github.com/arturoherrero
-[3]: http://packtpub.com/web-development/instant-markdown-instant
-[4]: http://coinfloor.co.uk
-[5]: http://cambridgehealthcare.com/
-[7]: http://osoco.es/
-[8]: http://bkool.com/
+[1]: https://arturoherrero.com
+[2]: https://github.com/arturoherrero
+[3]: https://packtpub.com/web-development/instant-markdown-instant
+[4]: https://coinfloor.co.uk
+[6]: http://insia-upm.es/?lang=en
+[7]: https://osoco.es/
+[8]: https://bkool.com/
 [9]: http://ishowsapp.com/
 [10]: https://plex.tv/
 [11]: https://www.amee.com/
 [12]: https://www.mastered.com
+[13]: https://www.mydrivesolutions.com/
+[14]: https://arturoherrero.com/powercore/
+[15]: https://arturoherrero.com/open-fast-struct/
+[16]: https://arturoherrero.com/yarr-yet-another-ruby-repl/
+[17]: https://github.com/arturoherrero/gvar
+[18]: https://github.com/arturoherrero/sparky
+[19]: https://github.com/arturoherrero/bart
+[20]: https://github.com/arturoherrero/biteydown

@@ -2,8 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    github-markup (3.0.2)
-    kramdown (1.17.0)
+    kramdown (2.1.0)
     rake (12.3.2)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
@@ -24,7 +23,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-markup
   kramdown
   rake
   rspec

@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'github-markup'
 gem 'kramdown'
 gem 'wkhtmltopdf-binary'
 

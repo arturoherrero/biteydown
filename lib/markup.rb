@@ -1,8 +1,8 @@
-require 'github/markup'
+require 'kramdown'
 
 class Markup
   def generate_html(markdown_path, css_path)
-    html = GitHub::Markup.render(markdown_path, File.read(markdown_path))
+    html = Kramdown::Document.new(File.read(markdown_path)).to_html
     add_stylesheet!(html, css_path)
     add_head!(html)
   end

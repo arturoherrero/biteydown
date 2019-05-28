@@ -122,7 +122,7 @@ To stay updated with my work check out my [GitHub][2] account.
 
 [1]: https://arturoherrero.com
 [2]: https://github.com/arturoherrero
-[3]: https://packtpub.com/web-development/instant-markdown-instant
+[3]: https://www.packtpub.com/gb/web-development/instant-markdown-instant
 [4]: https://coinfloor.co.uk
 [6]: http://insia-upm.es/?lang=en
 [7]: https://osoco.es/

@@ -2,6 +2,7 @@
 
 Website: *[https://arturoherrero.com][1]*  
 GitHub: *[https://github.com/arturoherrero][2]*  
+GitLab: *[https://gitlab.com/arturoherrero][22]*  
 Email: *<arturo.herrero@gmail.com>*  
 
 
@@ -24,12 +25,15 @@ Publishing, and occasionally speak at conferences and _meetups_.
 
 ## Experience
 
-#### **Lead Software Engineer** at *[MyDrive][13]*. Sep 2016 - Present
+#### **Senior Software Engineer** at *[GitLab][21]*. Sep 2019 - Present
+
+Everyone can contribute.
+
+#### **Lead Software Engineer** at *[MyDrive][13]*. Sep 2016 - Aug 2019
 
 MyDrive is a Generali Group company that focuses on analysing driver behaviour
-for insurance companies. I'm currently both leading and managing a tech team.
-During my time at MyDrive,
-I've worked on 4 main projects:
+for insurance companies. I was both leading and managing a tech team.
+During my time at MyDrive, I worked on 4 main projects:
 
 - Defined the architecture and currently building our new profiler.
 - Built a logging system using AWS infrastructure in order to scale it to 1M drivers.
@@ -62,7 +66,6 @@ APIs implemented using HTTP and REST principles, Entity-Boundary-Interactor
 architecture, Elasticsearch and Redis for persistence.
 
 #### **Software Engineer** at *[OSOCO][7]*. Nov 2010 - Mar 2013
-{:.separator }
 
 OSOCO is a small software consultancy where I worked as a software developer
 and technical consultant. I focused on building web applications, using Groovy
@@ -73,6 +76,7 @@ I helped develop a social network and training plan manager for cyclists: *[BKOO
 
 
 ## Education
+{:.separator }
 
 #### **Software Engineering Degree** at *Universidad Politécnica de Madrid*. 2010
 
@@ -139,3 +143,5 @@ To stay updated with my work check out my [GitHub][2] account.
 [18]: https://github.com/arturoherrero/sparky
 [19]: https://github.com/arturoherrero/bart
 [20]: https://github.com/arturoherrero/biteydown
+[21]: https://gitlab.com
+[22]: https://gitlab.com/arturoherrero

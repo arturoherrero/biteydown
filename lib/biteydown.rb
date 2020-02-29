@@ -36,7 +36,7 @@ class Biteydown
     end
 
     def css_path
-      options.fetch(:css_path, File.expand_path('../../style/style.css', __FILE__))
+      options.fetch(:css_path, File.expand_path("../style/style.css", __dir__))
     end
 
     def raw_html

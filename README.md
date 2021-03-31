@@ -1,6 +1,6 @@
 # biteydown
 
-[![Build Status](https://travis-ci.org/arturoherrero/biteydown.png?branch=master)](https://travis-ci.org/arturoherrero/biteydown)
+[![Build Status](https://github.com/arturoherrero/biteydown/workflows/build/badge.svg?branch=master)](https://github.com/arturoherrero/biteydown/actions)
 [![Code Climate](https://codeclimate.com/github/arturoherrero/biteydown.png)](https://codeclimate.com/github/arturoherrero/biteydown)
 
 Convert your curriculum vitae in [Markdown] syntax to HTML or PDF file.

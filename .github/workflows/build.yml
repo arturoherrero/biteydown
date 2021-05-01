@@ -1,4 +1,4 @@
-name: build
+name: Build
 
 on: [push]
 
@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby-version: [2.7.2, 3.0.0]
+        ruby-version: [2.7.3, 3.0.1]
 
     steps:
       - uses: actions/checkout@v2

@@ -14,8 +14,8 @@ RSpec.describe Biteydown do
       :pdf           => true,
     )
 
-    expect(File.exists?(pdf_path)).to eq true
-    expect(File.exists?(html_path)).to eq false
+    expect(File.exist?(pdf_path)).to eq true
+    expect(File.exist?(html_path)).to eq false
   end
 
   it 'creates html file from a markdown file' do
@@ -25,8 +25,8 @@ RSpec.describe Biteydown do
       :pdf           => false,
     )
 
-    expect(File.exists?(pdf_path)).to eq false
-    expect(File.exists?(html_path)).to eq true
+    expect(File.exist?(pdf_path)).to eq false
+    expect(File.exist?(html_path)).to eq true
     check_css(html_path, vendor_css_path)
   end
 
@@ -37,8 +37,8 @@ RSpec.describe Biteydown do
       :pdf           => true,
     )
 
-    expect(File.exists?(pdf_path)).to eq true
-    expect(File.exists?(html_path)).to eq true
+    expect(File.exist?(pdf_path)).to eq true
+    expect(File.exist?(html_path)).to eq true
     check_css(html_path, vendor_css_path)
   end
 
@@ -50,14 +50,14 @@ RSpec.describe Biteydown do
       :css_path      => custom_css_path,
     )
 
-    expect(File.exists?(pdf_path)).to eq true
-    expect(File.exists?(html_path)).to eq true
+    expect(File.exist?(pdf_path)).to eq true
+    expect(File.exist?(html_path)).to eq true
     check_css(html_path, custom_css_path)
   end
 
   after do
-    File.delete(html_path) if File.exists?(html_path)
-    File.delete(pdf_path)  if File.exists?(pdf_path)
+    File.delete(html_path) if File.exist?(html_path)
+    File.delete(pdf_path)  if File.exist?(pdf_path)
   end
 
   private

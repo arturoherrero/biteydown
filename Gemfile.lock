@@ -4,7 +4,7 @@ GEM
     diff-lcs (1.5.1)
     kramdown (2.4.0)
       rexml
-    rexml (3.3.3)
+    rexml (3.3.6)
       strscan
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
